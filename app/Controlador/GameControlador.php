@@ -3,6 +3,7 @@
 class GameControlador
 {
 
+  
   public function retonarListaGames($request, $response, $arg)
   {
     $listaGames = Game::buscarTodos();
