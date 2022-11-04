@@ -1,0 +1,55 @@
+	crear usuario
+	modificar usuario//
+	eliminar usuario//
+	verificar usuario//
+	traer lista de usuarios//
+	traer un usuario//
+	crear usuario//
+
+	crear suscripcion = crearusuario
+
+	actualizar suscripcion = actualizarPass
+
+	eliminar suscripcion = actualizarPass pero NO ES DELETE // update usuarios set tipo_suscripcion = 'gratis' 
+	WHERE email = '$email'
+
+	buscar tipo_suscripcion
+	SELECT tipo_suscripcion FROM suscripciones
+
+
+
+TABLA JUEGOS
+
+
+crear mensaje
+enviar mensaje
+
+
+traer estadisticas x juego
+traer estadisticas x usuario
+traer estadisticas globales
+guardar puntaje juego
+traer puntaje x juego
+traer puntaje x usuario
+
+
+
+
+GET // LEER
+
+POST // ESCRIBIR * ENVIAR INFO SENSIBLE
+
+PUT // INFO ACTUALIZAR 
+
+DELETE // BORRRAR
+ 
+{"email":"alan@gmail.com",
+"password":"12345",
+"nombre":"alan",
+"apellido":"Perez",
+"tipo_suscripcion": "oro"}
+
+{"tipo_suscripcion": "bronce",
+"nivel":"1",
+"precio":"1000"}
+
