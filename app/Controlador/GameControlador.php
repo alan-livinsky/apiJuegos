@@ -20,5 +20,10 @@ class GameControlador
     $json = json_encode($GamesActual);
     $response->getBody()->write($json);
     return $response;
+    
+    
+    
+    
+    
   }
 }
